@@ -1,11 +1,12 @@
 blppy
 =====
 
-A python binding for Bloomberg's BLPAPI - sprinkle some python awesomeness on your Bloomberg - an unofficial, and otherwise absent, Python binding for the 
+Sprinkle some python awesomeness on your Bloomberg - an unofficial, and otherwise absent, Python binding for the 
 BLPAPI SDK, available at www.openbloomberg.com.
 
 As simple as,
 
+```python
 import blp
 
 session = blp.Session('localhost', 8194)
@@ -20,6 +21,7 @@ session.sendRequest(request)
 response = session.getResponse()
 
 print str(response)
+```
 
 Enjoy.
 
