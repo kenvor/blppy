@@ -1,0 +1,7 @@
+
+- Add Event types for Event checking, particularly termination Events
+- Flesh out Element binding - lots of powerful stuff here, although probably mostly unnecessary
+- Subscription request/response types
+- Integrate asynchronous response handling into Twisted or a similar event framework
+- Error handling: graceful handling of queries for non-existent elements, and error events
+

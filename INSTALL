@@ -1,0 +1,22 @@
+blppy install instructions
+
+Built and tested with python 2.6 and blpapi (CPP) 3.4.8.1, on cygwin
+
+1) Install BLPAPI from http://www.openbloomberg.com/open-api/
+
+Select Windows C/C++
+
+Unzip to /usr/local
+
+2) Modify include and library paths to point to your BLPAPI installation
+
+Lines: include_dirs and library_dirs
+
+3) Build the python extension
+
+$ python setup.py build
+
+4) Install
+
+$ python setup.py install
+
